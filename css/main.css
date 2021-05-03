@@ -1,0 +1,80 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 190px;
+  height: 190px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 0px gray;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+.contact {
+  margin-bottom: 40px;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  width: 16px;
+}
+
+.contact-item {
+  margin-bottom: 4px;
+}
+
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("https://images.unsplash.com/photo-1507325670434-aa8da9a9626c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=613&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+
+.content {
+  max-width: 500px;
+}
+
+.job {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 28px;
+  }
+}
